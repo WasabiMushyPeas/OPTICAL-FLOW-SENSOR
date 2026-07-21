@@ -1,0 +1,127 @@
+Importer Log Report
+Document: D:\CLUBS\FSAE\OPTICAL-FLOW\PCB\OPTICAL-FLOW-PCB\CUSTOM-COMPONENTS\KiCad
+    Section : Analyze Document from - D:\CLUBS\FSAE\OPTICAL-FLOW\PCB\OPTICAL-FLOW-PCB\CUSTOM-COMPONENTS\KiCad
+        Warning: Unknown child generator_version of footprint.
+        Warning: Unknown child uuid of property.
+        Warning: Unknown child 'bold' of 'font'.
+        Warning: Unknown child sheetname of footprint.
+        Warning: Unknown child sheetfile of footprint.
+        Warning: Unknown child duplicate_pad_numbers_are_jumpers of footprint.
+        Warning: Unknown child stroke of fp_circle.
+        Warning: Unknown child uuid of fp_circle.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_circle.
+        Warning: Unknown child uuid of fp_circle.
+        Warning: Unknown child stroke of fp_circle.
+        Warning: Unknown child uuid of fp_circle.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_line.
+        Warning: Unknown child uuid of fp_line.
+        Warning: Unknown child stroke of fp_arc.
+        Warning: Unknown child uuid of fp_arc.
+        Warning: Unknown child stroke of fp_arc.
+        Warning: Unknown child uuid of fp_arc.
+        Warning: Unknown child stroke of fp_arc.
+        Warning: Unknown child uuid of fp_arc.
+        Warning: Unknown child stroke of fp_arc.
+        Warning: Unknown child uuid of fp_arc.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child remove_unused_layers of pad.
+        Warning: Unknown child uuid of pad.
+        Warning: Unknown child embedded_fonts of footprint.
+    EndSection
+    Section : Import Document - D:\CLUBS\FSAE\OPTICAL-FLOW\PCB\OPTICAL-FLOW-PCB\CUSTOM-COMPONENTS\Imported PAW3395\KiCad.PcbLib
+        Event: Component U2 was successfully imported.
+        Section : Component U2 importing.
+            Event: Rect was successfully imported.
+            Event: Line with 2 vertices was successfully imported.
+            Event: Line with 2 vertices was successfully imported.
+            Event: Rect was successfully imported.
+            Event: Rect was successfully imported.
+            Event: Line with 2 vertices was successfully imported.
+            Event: Line with 2 vertices was successfully imported.
+            Event: Line with 2 vertices was successfully imported.
+            Event: Line with 2 vertices was successfully imported.
+            Event: Line with 2 vertices was successfully imported.
+            Event: Line with 2 vertices was successfully imported.
+            Event: Line with 2 vertices was successfully imported.
+            Event: Line with 2 vertices was successfully imported.
+            Event: Line with 2 vertices was successfully imported.
+            Event: Line with 2 vertices was successfully imported.
+            Event: Line with 2 vertices was successfully imported.
+            Event: Line with 2 vertices was successfully imported.
+            Event: Line with 1 vertices was successfully imported.
+            Event: Line with 1 vertices was successfully imported.
+            Event: Line with 1 vertices was successfully imported.
+            Event: Line with 1 vertices was successfully imported.
+            Event: Pad 1 on [0,-0] was successfully imported.
+            Event: Pad 2 on [0,-1.78] was successfully imported.
+            Event: Pad 3 on [0,-3.56] was successfully imported.
+            Event: Pad 4 on [0,-5.34] was successfully imported.
+            Event: Pad 5 on [0,-7.12] was successfully imported.
+            Event: Pad 6 on [0,-8.9] was successfully imported.
+            Event: Pad 7 on [0,-10.68] was successfully imported.
+            Event: Pad 8 on [0,-12.46] was successfully imported.
+            Event: Pad 9 on [10.7,-13.35] was successfully imported.
+            Event: Pad 10 on [10.7,-11.57] was successfully imported.
+            Event: Pad 11 on [10.7,-9.79] was successfully imported.
+            Event: Pad 12 on [10.7,-8.01] was successfully imported.
+            Event: Pad 13 on [10.7,-6.23] was successfully imported.
+            Event: Pad 14 on [10.7,-4.45] was successfully imported.
+            Event: Pad 15 on [10.7,-2.67] was successfully imported.
+            Event: Pad 16 on [10.7,-0.89] was successfully imported.
+        EndSection
+    EndSection

@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [OPTICAL-FLOW-PCB.PrjPcb]
+   Generated File[DEMO-BOARD.TXT]
+   Generated File[DEMO-BOARD.LDP]
+   Generated File[DEMO-BOARD.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 7:42:21 PM On 7/2/2026
