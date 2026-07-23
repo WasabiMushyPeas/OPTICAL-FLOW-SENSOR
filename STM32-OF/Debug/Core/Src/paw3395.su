@@ -1,0 +1,17 @@
+../Core/Src/paw3395.c:14:6:DWT_Delay_Init	4	static
+../Core/Src/paw3395.c:20:6:delay_us	24	static
+../Core/Src/paw3395.c:28:20:ncs_low	8	static
+../Core/Src/paw3395.c:29:20:ncs_high	8	static
+../Core/Src/paw3395.c:32:9:paw3395_read_reg	32	static
+../Core/Src/paw3395.c:65:6:paw3395_write_reg	32	static
+../Core/Src/paw3395.c:99:19:paw3395_read_motion_data	80	static
+../Core/Src/paw3395.c:165:19:paw3395_read_motion_registers	48	static
+../Core/Src/paw3395.c:204:6:paw3395_read_motion	48	static
+../Core/Src/paw3395.c:228:6:paw3395_read_burst	48	static
+../Core/Src/paw3395.c:464:13:paw3395_write_table	24	static
+../Core/Src/paw3395.c:471:6:paw3395_power_up_sequence	16	static
+../Core/Src/paw3395.c:502:6:paw3395_set_cpi	24	static
+../Core/Src/paw3395.c:526:9:paw3395_get_init_poll_value	4	static
+../Core/Src/paw3395.c:531:9:paw3395_get_init_poll_attempts	4	static
+../Core/Src/paw3395.c:536:13:paw3395_configure_slide_test	16	static
+../Core/Src/paw3395.c:551:9:paw3395_init	16	static
