@@ -544,7 +544,7 @@ static void paw3395_configure_slide_test(void)
     paw3395_write_reg(PAW_REG_PERFORMANCE, performance);
 
     /* A moderate CPI makes hand-sliding easy to observe without saturation. */
-    paw3395_set_cpi(1600U);
+    paw3395_set_cpi(26000U);
 }
 
 /* ============================ Init / bring-up =========================== */

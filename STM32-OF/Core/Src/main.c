@@ -183,27 +183,23 @@ int main(void)
            * - the physical MOTION pin is active-low,
            * - or either delta is nonzero.
            */
-          if (((sample.motion & 0x80U) != 0U) ||
-              (motion_pin == GPIO_PIN_RESET) ||
-              (sample.dx != 0) ||
-              (sample.dy != 0))
-          {
-              UART_PRINT(
-                  "M=%02X PIN=%u X=%6d Y=%6d SQ=%3u\r\n",
-                  sample.motion,
-                  (unsigned int)motion_pin,
-                  sample.dx,
-                  sample.dy,
-                  sample.squal
-              );
-          }
+//          if (((sample.motion & 0x80U) != 0U) ||
+//              (motion_pin == GPIO_PIN_RESET) ||
+//              (sample.dx != 0) ||
+//              (sample.dy != 0))
+//          {
+          UART_PRINT("M=%02X PIN=%u X=%6d Y=%6d SQ=%3u SHUT=%5u RAW[%3u..%3u] SUM=%3u\r\n",
+                     sample.motion, (unsigned int)motion_pin, sample.dx, sample.dy,
+                     sample.squal, sample.shutter, sample.min_raw, sample.max_raw,
+                     sample.raw_sum);
+          //}
       }
       else
       {
           UART_PRINT("SPI motion-read error\r\n");
       }
 
-      HAL_Delay(2);
+      HAL_Delay(30);
   }
 
   /* USER CODE END 3 */
