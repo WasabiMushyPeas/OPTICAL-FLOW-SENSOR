@@ -1,0 +1,14 @@
+Importer Log Report
+Project : OSRAM_SFH4715B_Altium_Import_v3.Library.PrjPcb
+
+Section : Analyze Document - D:\CLUBS\FSAE\OPTICAL-FLOW\OPTICAL-FLOW-SENSOR\PCB\LED-PCB\CUSTOM-COMPONENTS\OSRAM_SFH4715B_Altium_Library_v3\OSRAM_SFH4715B_Altium_Import_v3.lbr
+    Analyzing data of D:\CLUBS\FSAE\OPTICAL-FLOW\OPTICAL-FLOW-SENSOR\PCB\LED-PCB\CUSTOM-COMPONENTS\OSRAM_SFH4715B_Altium_Library_v3\OSRAM_SFH4715B_Altium_Import_v3.lbr
+    Load settings
+    Load layers 14
+    Load library
+    Load Library library
+    Load Library ""
+    Load Packages 1
+    Load Symbols 1
+    Load DeviceSets 1
+EndSection

@@ -1,0 +1,52 @@
+Added Component: Designator=D1(SFH4715B)
+Add component (AddParameter): Name = "DATASHEET_LAND_PATTERN"; Value = "E062.3010.91-06"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "SFH4715B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "OSRAM_SFH4715B_Altium_Import_v2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "ams OSRAM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "SFH 4715B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SFH4715B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PACKAGE_DRAWING"; Value = "C63062-A4141-A1...-12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "SFH4715B"; VariantName = "[No Variations]"
+Added Component: Designator=D2(SFH4715B)
+Add component (AddParameter): Name = "DATASHEET_LAND_PATTERN"; Value = "E062.3010.91-06"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "SFH4715B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "OSRAM_SFH4715B_Altium_Import_v2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "ams OSRAM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "SFH 4715B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SFH4715B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PACKAGE_DRAWING"; Value = "C63062-A4141-A1...-12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "SFH4715B"; VariantName = "[No Variations]"
+Added Component: Designator=D3(SFH4715B)
+Add component (AddParameter): Name = "DATASHEET_LAND_PATTERN"; Value = "E062.3010.91-06"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "SFH4715B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "OSRAM_SFH4715B_Altium_Import_v2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "ams OSRAM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "SFH 4715B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SFH4715B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PACKAGE_DRAWING"; Value = "C63062-A4141-A1...-12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "SFH4715B"; VariantName = "[No Variations]"
+Added Component: Designator=J1(CONN_SD-43650-001_02_MOL)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/436500200/Molex/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "436500200"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/436500200/Molex/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D3-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Net: Name=GND
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Net: Name=NetD2_1
+Added Pin To Net: NetName=VCC Pin=J1-1
+Added Net: Name=VCC
+Added Class: Name=LED-PCB
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.4.2">
+  <drawing>
+    <settings>
+      <setting alwaysvectorfont="no"/>
+      <setting verticaltext="up"/>
+    </settings>
+    <grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="10" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
+    <layers>
+      <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+      <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+      <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+      <layer number="49" name="ReferenceLC" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+      <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+      <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+      <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+      <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+    </layers>
+    <library>
+      <description>&lt;b&gt;OSRAM SFH 4715B infrared emitter&lt;/b&gt;&lt;br/&gt;
+Verified against OSRAM datasheet version 1.2, dated 2026-01-09.&lt;br/&gt;
+Package drawing C63062-A4141-A1...-12; land pattern E062.3010.91-06.&lt;br/&gt;
+Both physical anode lands use pad designator 2 so Altium assigns both to schematic pin 2.</description>
+      <packages>
+        <package name="SFH4715B">
+          <description>&lt;b&gt;OSRAM OSLON Black 3.75 mm x 3.75 mm&lt;/b&gt;&lt;br/&gt;
+Pad 1: cathode. Upper land.&lt;br/&gt;
+Pad 2: anode. Large center thermal/electrical land.&lt;br/&gt;
+Pad 2: anode. Lower land.&lt;br/&gt;
+The center land is a thermal path but is electrically anode, not an isolated thermal pad.</description>
+
+          <wire x1="-1.875" y1="-1.875" x2="1.875" y2="-1.875" width="0.10" layer="51"/>
+          <wire x1="1.875" y1="-1.875" x2="1.875" y2="1.875" width="0.10" layer="51"/>
+          <wire x1="1.875" y1="1.875" x2="-1.875" y2="1.875" width="0.10" layer="51"/>
+          <wire x1="-1.875" y1="1.875" x2="-1.875" y2="-1.875" width="0.10" layer="51"/>
+          <wire x1="-0.35" y1="1.62" x2="0.35" y2="1.62" width="0.20" layer="51"/>
+
+          <wire x1="-2.025" y1="-2.025" x2="-1.45" y2="-2.025" width="0.15" layer="21"/>
+          <wire x1="-2.025" y1="-2.025" x2="-2.025" y2="-1.45" width="0.15" layer="21"/>
+          <wire x1="2.025" y1="-2.025" x2="1.45" y2="-2.025" width="0.15" layer="21"/>
+          <wire x1="2.025" y1="-2.025" x2="2.025" y2="-1.45" width="0.15" layer="21"/>
+          <wire x1="-2.025" y1="2.025" x2="-1.45" y2="2.025" width="0.15" layer="21"/>
+          <wire x1="-2.025" y1="2.025" x2="-2.025" y2="1.45" width="0.15" layer="21"/>
+          <wire x1="2.025" y1="2.025" x2="1.45" y2="2.025" width="0.15" layer="21"/>
+          <wire x1="2.025" y1="2.025" x2="2.025" y2="1.45" width="0.15" layer="21"/>
+
+          <wire x1="-2.125" y1="-2.125" x2="2.125" y2="-2.125" width="0.05" layer="49"/>
+          <wire x1="2.125" y1="-2.125" x2="2.125" y2="2.125" width="0.05" layer="49"/>
+          <wire x1="2.125" y1="2.125" x2="-2.125" y2="2.125" width="0.05" layer="49"/>
+          <wire x1="-2.125" y1="2.125" x2="-2.125" y2="-2.125" width="0.05" layer="49"/>
+
+          <text x="0" y="2.45" size="0.8" layer="25" ratio="12" align="bottom-center">&gt;NAME</text>
+          <text x="0" y="-2.45" size="0.8" layer="27" ratio="12" align="top-center">&gt;VALUE</text>
+
+          <circle x="0" y="0" radius="1.38" width="0.10" layer="51"/>
+          <circle x="-2.30" y="1.60" radius="0.18" width="0.10" layer="21"/>
+
+          <rectangle x1="-1.4" y1="0.85" x2="1.4" y2="1.4" layer="29"/>
+          <rectangle x1="-1.4" y1="-0.5" x2="1.4" y2="0.5" layer="29"/>
+          <rectangle x1="-1.4" y1="-1.4" x2="1.4" y2="-0.85" layer="29"/>
+
+          <rectangle x1="-1.3" y1="0.9" x2="1.3" y2="1.3" layer="31"/>
+          <rectangle x1="-1.3" y1="-0.45" x2="-0.15" y2="0.45" layer="31"/>
+          <rectangle x1="0.15" y1="-0.45" x2="1.3" y2="0.45" layer="31"/>
+          <rectangle x1="-1.3" y1="-1.3" x2="1.3" y2="-0.9" layer="31"/>
+
+          <smd name="1" x="0" y="1.125" dx="2.8" dy="0.55" layer="1" roundness="0" stop="no" thermals="yes" cream="no"/>
+          <smd name="2" x="0" y="0" dx="2.8" dy="1.0" layer="1" roundness="0" stop="no" thermals="yes" cream="no"/>
+          <smd name="2" x="0" y="-1.125" dx="2.8" dy="0.55" layer="1" roundness="0" stop="no" thermals="yes" cream="no"/>
+        </package>
+      </packages>
+      <symbols>
+        <symbol name="SFH4715B">
+          <description>Infrared LED. Pin 1 is cathode K; pin 2 is anode A. Both anode lands are one electrical connection.</description>
+          <polygon width="0.254" layer="94">
+            <vertex x="-1.27" y="1.27"/>
+            <vertex x="-1.27" y="-1.27"/>
+            <vertex x="0.635" y="0"/>
+          </polygon>
+
+          <wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+          <wire x1="0.635" y1="1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+          <wire x1="0.635" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+          <wire x1="-0.15" y1="1.45" x2="0.75" y2="2.35" width="0.20" layer="94"/>
+          <wire x1="0.75" y1="2.35" x2="0.38" y2="2.23" width="0.20" layer="94"/>
+          <wire x1="0.75" y1="2.35" x2="0.63" y2="1.98" width="0.20" layer="94"/>
+          <wire x1="0.65" y1="1.45" x2="1.55" y2="2.35" width="0.20" layer="94"/>
+          <wire x1="1.55" y1="2.35" x2="1.18" y2="2.23" width="0.20" layer="94"/>
+          <wire x1="1.55" y1="2.35" x2="1.43" y2="1.98" width="0.20" layer="94"/>
+
+          <text x="-2.70" y="0.50" size="1.00" layer="94" align="bottom-right">A</text>
+          <text x="2.70" y="0.50" size="1.00" layer="94" align="bottom-left">K</text>
+          <text x="0" y="3.30" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+          <text x="0" y="-2.20" size="1.27" layer="96" align="top-center">&gt;VALUE</text>
+
+          <pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas" rot="R0"/>
+          <pin name="1" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+        </symbol>
+      </symbols>
+      <devicesets>
+        <deviceset name="SFH4715B" prefix="D" uservalue="no">
+          <description>&lt;b&gt;OSRAM SFH 4715B, 850 nm infrared emitter&lt;/b&gt;&lt;br/&gt;
+Pin 1 cathode; pin 2 anode. The center thermal land is electrically pin 2/anode.</description>
+          <gates>
+            <gate name="G$1" symbol="SFH4715B" x="0" y="0" addlevel="always"/>
+          </gates>
+          <devices>
+            <device name="" package="SFH4715B">
+              <connects>
+                <connect gate="G$1" pin="1" pad="1"/>
+                <connect gate="G$1" pin="2" pad="2"/>
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="MANUFACTURER" value="ams OSRAM" constant="no"/>
+                  <attribute name="MPN" value="SFH 4715B" constant="no"/>
+                  <attribute name="DATASHEET_LAND_PATTERN" value="E062.3010.91-06" constant="no"/>
+                  <attribute name="PACKAGE_DRAWING" value="C63062-A4141-A1...-12" constant="no"/>
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+      </devicesets>
+    </library>
+  </drawing>
+</eagle>
