@@ -185,6 +185,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DIWOGJTD
 
+[Document9]
+DocumentPath=LED-DRIVER.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FBLEZTFR
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -1202,13 +1219,11 @@ Net1=NetName=CAN_H|NetColor=$00FF6EFF
 Net2=NetName=CAN_L|NetColor=clYellow
 Net3=NetName=NetJ?_A7|NetColor=clYellow
 Net4=NetName=NetJ?_A8|NetColor=$00FF6EFF
-Net5=NetName=NetR?_1|NetColor=clYellow
-Net6=NetName=NetR?_2|NetColor=$00FF6EFF
-Net7=NetName=NetR7_2|NetColor=$00FF6EFF
-Net8=NetName=NetR8_1|NetColor=clYellow
-Net9=NetName=NetX?_17|NetColor=clYellow
-Net10=NetName=NetX2_17|NetColor=clYellow
-Net11=NetName=NetX2_4|NetColor=$00FF6EFF
+Net5=NetName=NetR7_2|NetColor=$00FF6EFF
+Net6=NetName=NetR8_1|NetColor=clYellow
+Net7=NetName=NetX?_17|NetColor=clYellow
+Net8=NetName=NetX2_17|NetColor=clYellow
+Net9=NetName=NetX2_4|NetColor=$00FF6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
