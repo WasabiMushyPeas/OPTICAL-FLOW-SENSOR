@@ -1,0 +1,14 @@
+Added Pin To Net: NetName=GND Pin=C43-1
+Added Pin To Net: NetName=3V3 Pin=C43-2
+Added Pin To Net: NetName=1.9V Pin=R28-2
+Added Pin To Net: NetName=GND Pin=R29-2
+Added Pin To Net: NetName=NetR5_2 Pin=U9-1
+Added Pin To Net: NetName=GND Pin=U9-2
+Added Pin To Net: NetName=3V3 Pin=U9-4
+Added Pin To Net: NetName=GND Pin=U9-6
+Added Member To Class: ClassName=U_OFS Member=Component C43 Capacitor
+Added Member To Class: ClassName=U_OFS Member=Component R27 Resistor
+Added Member To Class: ClassName=U_OFS Member=Component R28 Resistor
+Added Member To Class: ClassName=U_OFS Member=Component R29 Resistor
+Added Member To Class: ClassName=U_OFS Member=Component R30 Resistor
+Added Member To Class: ClassName=U_OFS Member=Component U9 TLV3501AIDBVR
