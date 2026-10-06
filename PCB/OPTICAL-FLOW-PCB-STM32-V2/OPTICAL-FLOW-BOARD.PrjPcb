@@ -13,7 +13,7 @@ TemplateLocationPath=
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
 AllowPortNetNames=0
-AllowSheetEntryNetNames=1
+AllowSheetEntryNetNames=0
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
 DefaultConfiguration=Sources
@@ -184,6 +184,10 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SVNIOSLA
+
+[DiffPairSuffix1]
+Positive=_H
+Negative=_L
 
 [Configuration1]
 Name=Sources
@@ -859,16 +863,6 @@ Type158=1
 Type159=1
 Type160=1
 Type161=1
-Type162=1
-Type163=1
-Type164=1
-Type165=1
-Type166=1
-Type167=1
-Type168=1
-Type169=1
-Type170=1
-Type171=1
 
 [Difference Levels]
 Type1=1
@@ -959,13 +953,6 @@ Type85=1
 Type86=1
 Type87=1
 Type88=1
-Type89=1
-Type90=1
-Type91=1
-Type92=1
-Type93=1
-Type94=1
-Type95=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1406,39 +1393,43 @@ Net2=NetName=12V PROTECTED|NetColor=clBlack
 Net3=NetName=24V|NetColor=clMaroon
 Net4=NetName=3V3|NetColor=clRed
 Net5=NetName=5V|NetColor=$005050FF
-Net6=NetName=GND|NetColor=$00434343
-Net7=NetName=NetC?_1|NetColor=clMaroon
-Net8=NetName=NetC?_2|NetColor=$005050FF
-Net9=NetName=NetC1_2|NetColor=$00001CA6
-Net10=NetName=NetC13_1|NetColor=$00434343
-Net11=NetName=NetC2_2|NetColor=$002541CC
-Net12=NetName=NetC20_1|NetColor=$002541CC
-Net13=NetName=NetC20_2|NetColor=$00434343
-Net14=NetName=NetC21_1|NetColor=$002541CC
-Net15=NetName=NetC21_2|NetColor=$00434343
-Net16=NetName=NetC22_1|NetColor=$002541CC
-Net17=NetName=NetC22_2|NetColor=$00434343
-Net18=NetName=NetC23_1|NetColor=$002541CC
-Net19=NetName=NetC23_2|NetColor=$00434343
-Net20=NetName=NetC24_1|NetColor=$002541CC
-Net21=NetName=NetC24_2|NetColor=$00434343
-Net22=NetName=NetC25_1|NetColor=$002541CC
-Net23=NetName=NetC25_2|NetColor=$00434343
-Net24=NetName=NetC26_1|NetColor=$002541CC
-Net25=NetName=NetC26_2|NetColor=$00434343
-Net26=NetName=NetC27_1|NetColor=$002541CC
-Net27=NetName=NetC27_2|NetColor=$00434343
-Net28=NetName=NetC4_1|NetColor=$00434343
-Net29=NetName=NetC4_2|NetColor=$002541CC
-Net30=NetName=NetC5_2|NetColor=$00434343
-Net31=NetName=NetD2_2|NetColor=$00000F5B
-Net32=NetName=NetR3_1|NetColor=$00434343
-Net33=NetName=NetR5_1|NetColor=clBlack
-Net34=NetName=NetU3_60|NetColor=clBlack
-Net35=NetName=NetX?_1|NetColor=clMaroon
-Net36=NetName=SCA|NetColor=$00E8864A
-Net37=NetName=SDA|NetColor=clBlack
-Net38=NetName=VDD|NetColor=$002541CC
+Net6=NetName=CRIT_CAN_H|NetColor=$00FF0099
+Net7=NetName=CRIT_CAN_L|NetColor=clYellow
+Net8=NetName=GND|NetColor=$00434343
+Net9=NetName=NetC?_1|NetColor=clMaroon
+Net10=NetName=NetC?_2|NetColor=$005050FF
+Net11=NetName=NetC1_2|NetColor=$00001CA6
+Net12=NetName=NetC13_1|NetColor=$00434343
+Net13=NetName=NetC2_2|NetColor=$002541CC
+Net14=NetName=NetC20_1|NetColor=$002541CC
+Net15=NetName=NetC20_2|NetColor=$00434343
+Net16=NetName=NetC21_1|NetColor=$002541CC
+Net17=NetName=NetC21_2|NetColor=$00434343
+Net18=NetName=NetC22_1|NetColor=$002541CC
+Net19=NetName=NetC22_2|NetColor=$00434343
+Net20=NetName=NetC23_1|NetColor=$002541CC
+Net21=NetName=NetC23_2|NetColor=$00434343
+Net22=NetName=NetC24_1|NetColor=$002541CC
+Net23=NetName=NetC24_2|NetColor=$00434343
+Net24=NetName=NetC25_1|NetColor=$002541CC
+Net25=NetName=NetC25_2|NetColor=$00434343
+Net26=NetName=NetC26_1|NetColor=$002541CC
+Net27=NetName=NetC26_2|NetColor=$00434343
+Net28=NetName=NetC27_1|NetColor=$002541CC
+Net29=NetName=NetC27_2|NetColor=$00434343
+Net30=NetName=NetC4_1|NetColor=$00434343
+Net31=NetName=NetC4_2|NetColor=$002541CC
+Net32=NetName=NetC5_2|NetColor=$00434343
+Net33=NetName=NetD2_2|NetColor=$00000F5B
+Net34=NetName=NetR3_1|NetColor=$00434343
+Net35=NetName=NetR5_1|NetColor=clBlack
+Net36=NetName=NetR7_2|NetColor=$00FF0099
+Net37=NetName=NetR8_1|NetColor=clYellow
+Net38=NetName=NetU3_60|NetColor=clBlack
+Net39=NetName=NetX?_1|NetColor=clMaroon
+Net40=NetName=SCA|NetColor=$00E8864A
+Net41=NetName=SDA|NetColor=clBlack
+Net42=NetName=VDD|NetColor=$002541CC
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
