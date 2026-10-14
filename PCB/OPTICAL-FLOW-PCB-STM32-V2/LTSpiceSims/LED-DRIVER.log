@@ -1,0 +1,17 @@
+LTspice 26.0.2 for Windows
+Circuit: D:\CLUBS\FSAE\OPTICAL-FLOW\OPTICAL-FLOW-SENSOR\PCB\OPTICAL-FLOW-PCB-STM32-V2\LTSpiceSims\LED-DRIVER.net
+Start Time: Mon Oct 12 23:12:25 2026
+solver = Normal
+Maximum thread count: 32
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 80.416 seconds.
+
+Files loaded:
+D:\CLUBS\FSAE\OPTICAL-FLOW\OPTICAL-FLOW-SENSOR\PCB\OPTICAL-FLOW-PCB-STM32-V2\LTSpiceSims\LED-DRIVER.net
+C:\Users\jacks\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\jacks\AppData\Local\LTspice\lib\cmp\standard.mos
+C:\Users\jacks\AppData\Local\LTspice\lib\sub\LT3932-1.sub
+
