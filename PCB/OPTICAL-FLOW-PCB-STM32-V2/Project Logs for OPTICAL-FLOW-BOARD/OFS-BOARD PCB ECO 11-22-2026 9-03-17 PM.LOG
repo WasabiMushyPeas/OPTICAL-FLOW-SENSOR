@@ -1,0 +1,85 @@
+Removed Pin From Net: NetName=LED_VCC Pin=M1-3
+Removed Pin From Net: NetName=NetM1_1 Pin=M1-4
+Change Component DesignItemId : Designator=M1 Old DesignItemId=MOSFET P-ch Lev1 New DesignItemId=DMP3045LFVWQ-7
+Change Component Footprint: Designator=M1 Old Footprint=DMP2008UFG-7_DIO New Footprint=PowerDI3333-8_PMOS
+Change Component Description : Designator=M1 Old Description=P-channel MOS1 MOSFET Shichman and Hodges Model New Description=P-channel MOSFET 30V 5.7A, PowerDI3333-8 (pins 1-3 S, 4 G, 5-8 + pad D)
+Change Component Library : Designator=M1 Old Library=Simulation Generic Components.IntLib New Library=*
+Change component parameters: Designator = "M1" ("M1"); Footprint = "DMP2008UFG-7_DIO"; UniqueID = "\UOHDUSDR\CBYCOAVN" ("\UOHDUSDR\CBYCOAVN")
+Added Component: Designator=J4(1x2PinHeader)
+Added Component: Designator=MH1(MOUNTING_HOLE)
+Added Component: Designator=MH2(MOUNTING_HOLE)
+Added Component: Designator=MH3(MOUNTING_HOLE)
+Added Component: Designator=MH4(MOUNTING_HOLE)
+Added Pin To Net: NetName=LED_VCC Pin=J4-1
+Added Pin To Net: NetName=GND Pin=J4-2
+Added Pin To Net: NetName=LED_VCC Pin=M1-5
+Added Pin To Net: NetName=LED_VCC Pin=M1-5
+Added Pin To Net: NetName=LED_VCC Pin=M1-5
+Added Pin To Net: NetName=LED_VCC Pin=M1-5
+Added Pin To Net: NetName=LED_VCC Pin=M1-5
+Added Pin To Net: NetName=GND Pin=MH1-1
+Added Pin To Net: NetName=GND Pin=MH1-1
+Added Pin To Net: NetName=GND Pin=MH1-1
+Added Pin To Net: NetName=GND Pin=MH1-1
+Added Pin To Net: NetName=GND Pin=MH1-1
+Added Pin To Net: NetName=GND Pin=MH1-1
+Added Pin To Net: NetName=GND Pin=MH1-1
+Added Pin To Net: NetName=GND Pin=MH1-1
+Added Pin To Net: NetName=GND Pin=MH1-1
+Added Pin To Net: NetName=GND Pin=MH2-1
+Added Pin To Net: NetName=GND Pin=MH2-1
+Added Pin To Net: NetName=GND Pin=MH2-1
+Added Pin To Net: NetName=GND Pin=MH2-1
+Added Pin To Net: NetName=GND Pin=MH2-1
+Added Pin To Net: NetName=GND Pin=MH2-1
+Added Pin To Net: NetName=GND Pin=MH2-1
+Added Pin To Net: NetName=GND Pin=MH2-1
+Added Pin To Net: NetName=GND Pin=MH2-1
+Added Pin To Net: NetName=GND Pin=MH3-1
+Added Pin To Net: NetName=GND Pin=MH3-1
+Added Pin To Net: NetName=GND Pin=MH3-1
+Added Pin To Net: NetName=GND Pin=MH3-1
+Added Pin To Net: NetName=GND Pin=MH3-1
+Added Pin To Net: NetName=GND Pin=MH3-1
+Added Pin To Net: NetName=GND Pin=MH3-1
+Added Pin To Net: NetName=GND Pin=MH3-1
+Added Pin To Net: NetName=GND Pin=MH3-1
+Added Pin To Net: NetName=GND Pin=MH4-1
+Added Pin To Net: NetName=GND Pin=MH4-1
+Added Pin To Net: NetName=GND Pin=MH4-1
+Added Pin To Net: NetName=GND Pin=MH4-1
+Added Pin To Net: NetName=GND Pin=MH4-1
+Added Pin To Net: NetName=GND Pin=MH4-1
+Added Pin To Net: NetName=GND Pin=MH4-1
+Added Pin To Net: NetName=GND Pin=MH4-1
+Added Pin To Net: NetName=GND Pin=MH4-1
+Change Net Name : Old Net Name=NetC14_2 New Net Name=PAW_VDDREG
+Change Net Name : Old Net Name=NetC36_1 New Net Name=LED_BST
+Change Net Name : Old Net Name=NetC36_2 New Net Name=LED_SW
+Change Net Name : Old Net Name=NetC37_1 New Net Name=LED_VOUT
+Change Net Name : Old Net Name=NetC39_1 New Net Name=LED_VREF
+Change Net Name : Old Net Name=NetC41_1 New Net Name=LED_SS
+Change Net Name : Old Net Name=NetC42_1 New Net Name=LED_VC_RC
+Change Net Name : Old Net Name=NetM1_1 New Net Name=LED_ISN
+Change Net Name : Old Net Name=NetR17_1 New Net Name=LED_FB
+Change Net Name : Old Net Name=NetR18_1 New Net Name=LED_EN_UVLO
+Change Net Name : Old Net Name=NetR22_2 New Net Name=LED_PWM_U8
+Change Net Name : Old Net Name=NetR25_2 New Net Name=LED_VC
+Change Net Name : Old Net Name=NetR26_2 New Net Name=LED_RT
+Change Net Name : Old Net Name=NetR28_2 New Net Name=LEDP_CMP_OUT
+Change Net Name : Old Net Name=NetR29_2 New Net Name=LEDP_SENSE
+Change Net Name : Old Net Name=NetR30_1 New Net Name=LEDP_CMP_REF
+Change Net Color : Old Net Color=Red New Net Color=Red
+Change Net Color : Old Net Color=RGB(255, 80, 80) New Net Color=RGB(255, 80, 80)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Default
+Change Net Color : Old Net Color=RGB(153, 0, 255) New Net Color=RGB(153, 0, 255)
+Change Net Color : Old Net Color=Yellow New Net Color=Yellow
+Change Net Color : Old Net Color=RGB(67, 67, 67) New Net Color=RGB(67, 67, 67)
+Added Pin To Net: NetName=LED_PWMTG Pin=M1-4
+Added Pin To Net: NetName=LED_PWMTG Pin=U8-13
+Added Net: Name=LED_PWMTG
+Added Member To Class: ClassName=U_LED-DRIVER Member=Component J4 1x2PinHeader
+Added Member To Class: ClassName=TOP-LEVEL Member=Component MH1 MOUNTING_HOLE
+Added Member To Class: ClassName=TOP-LEVEL Member=Component MH2 MOUNTING_HOLE
+Added Member To Class: ClassName=TOP-LEVEL Member=Component MH3 MOUNTING_HOLE
+Added Member To Class: ClassName=TOP-LEVEL Member=Component MH4 MOUNTING_HOLE

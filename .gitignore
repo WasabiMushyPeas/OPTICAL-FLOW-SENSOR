@@ -1,2 +1,16 @@
 
 /PCB/OPTICAL-FLOW-PCB-STM32-V2/LTSpiceSims/LED-DRIVER.raw
+# --- AI / MCP (eda-agent + Claude) artifacts: not part of the design ---
+_agent_renders/
+_backup_pre-agent_*/
+_eda_agent_setup.log
+_enable_write.bat
+_register_claude.bat
+_setup_eda_agent.bat
+*.DrcRules.json
+drc_batch_report.html
+geometry_dump.tsv
+mcp_config.json
+.claude/
+EDA Agent/
+eda-agent/
